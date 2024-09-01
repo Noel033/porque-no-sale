@@ -10,7 +10,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: black;
+
+  background-image: url("/img/adc.jpg");
+  background-size: cover;
+  background-position: center;
 }
 .greetings {
   font-size: 6rem;
@@ -23,11 +26,11 @@ body {
   0%,
   100% {
     color: #fff;
-    text-shadow: 0 0 12px #fbff00, 0 0 50px #fbff00, 0 0 100px #fbff00;
+    text-shadow: 0 0 12px #2f8b7b, 0 0 50px #2f8b7b, 0 0 100px #2f8b7b;
   }
   10%,
   90% {
-    color: #696565;
+    color: #7dae9b;
     text-shadow: none;
   }
 }
@@ -72,12 +75,12 @@ body {
 }
 
 .description {
-  color: #fbff00;
+  color: #dcc9b2;
 }
 
 /* Estilo para el botón */
 .button button {
-  background-color: yellow; /* Fondo amarillo */
+  background-color: #2f8b7b; /* Fondo amarillo */
   border: none; /* Sin bordes */
   padding: 10px 20px; /* Ajusta el relleno según tu preferencia */
   font-size: 18px; /* Tamaño de fuente */
@@ -95,6 +98,10 @@ body {
 
 /* Efecto de resplandor al pasar el cursor sobre el botón */
 .button button:hover {
-  background-color: orange; /* Cambia el color de fondo al pasar el mouse a naranja */
-  box-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow; /* Efecto de resplandor amarillo */
+  background-color: rgb(
+    143,
+    107,
+    24
+  ); /* Cambia el color de fondo al pasar el mouse a naranja */
+  box-shadow: 0 0 10px #2f8b7b, 0 0 20px #2f8b7b, 0 0 30px rgb(140, 105, 23); /* Efecto de resplandor amarillo */
 }

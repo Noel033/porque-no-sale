@@ -320,6 +320,25 @@
         </div>
       </div>
     </div>
+    <style>
+      audio {
+        width: 4px; /* ajusta el ancho de los botones de control */
+        background-color: #27a33e; /* agrega un fondo oscuro a los botones de control */
+        color: #2bc21b; /* agrega texto blanco a los botones de control */
+      }
+      audio::-webkit-media-controls {
+        width: 0.05px; /* ajusta el ancho de los botones de control en Chrome */
+        background-color: #087f46; /* agrega un fondo oscuro a los botones de control en Chrome */
+        color: #438219; /* agrega texto blanco a los botones de control en Chrome */
+      }
+    </style>
+
+    <audio controls autoplay loop>
+      <source src="audio/drako2.mp3" type="audio/mp3" />
+      <span style="display: none"
+        >Tu navegador no soporta el elemento audio.</span
+      >
+    </audio>
     <script src="main.js"></script>
   </body>
 </html>
